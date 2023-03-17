@@ -1,0 +1,11 @@
+CODE SEGMENT
+
+    MOV [2530H],1234H
+
+    LDS DI,[2530H]
+
+    HLT
+
+CODE ENDS
+
+    END

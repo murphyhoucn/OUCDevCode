@@ -1,0 +1,49 @@
+DATA SEGMENT
+    BUF1 DB 01H,02H,03H,04H,05H,FFH
+    BUF2 DB 5 DUP(0)
+
+    ;DB 定义无符号数
+DATA ENDS
+
+;JA JB 无符号数比较大小
+;JG JL 有符号数比较大小
+
+STACK SEGMENT
+    ST DB 100 DUP(0)
+STACK ENDS
+
+CODE SEGMENT
+ASSUME CS:CODE,DS:DATA,SS:STACK
+
+START:
+    MOV AX,DATA
+    MOV DS,AX
+
+    MOV SI,OFFSET BUF1
+    MOV DI,OFFSET BUF2
+    MOV AX,[SI]
+    CMP AX,64H
+    JL A
+
+    CMP AX,0C8H
+    JG B
+
+    MOV [DI],[SI]
+
+    INC SI
+
+
+A:
+    MOV [DI],64H
+    INC DI
+
+B:
+    MOV [DI],C8
+    INC DI
+
+
+    HLT; hkt cpu
+
+CODE ENDS
+
+    ENDS START

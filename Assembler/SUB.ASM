@@ -1,0 +1,14 @@
+CODE SEGMENT
+
+    MOV CX,6666H
+    SUB CX,1111H
+
+    LEA SI,[2222H]
+
+    SUB CX,SI
+
+    HLT
+    
+CODE ENDS
+
+    END

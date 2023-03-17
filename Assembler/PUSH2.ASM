@@ -1,0 +1,18 @@
+CODE SEGMENT
+
+    ;使用堆栈实现AX与BX互换
+
+    MOV AX,1234H
+
+    MOV BX,5678H
+
+    PUSH AX
+    PUSH BX
+    PUSH WORD PTR[BX]
+    POP WORD PTR[BX]
+    POP AX
+    POP BX
+
+CODE ENDS
+
+    END

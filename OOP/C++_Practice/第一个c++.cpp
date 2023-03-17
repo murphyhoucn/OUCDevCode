@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	cout << "Hello word ! I am " << 18 << " Today!" << endl;
+	cout << "hello";
+	cout << endl;
+	cout << 100;
+	cout << endl;
+	cout << "100";
+	cout << endl;
+	//for (;;); //À¿—≠ª∑
+
+	int age;
+	cin >> age;     // ‰»Î 
+	cout << "you are " << age << endl;  // ‰≥ˆ
+	return 0;
+}

@@ -1,0 +1,5 @@
+x=input()
+y=input()
+z=input()
+a=z.replace(y,x)
+print(a)

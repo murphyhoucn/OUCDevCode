@@ -1,0 +1,17 @@
+CODE SEGMENT
+    MOV AX,1A00H
+    MOV DS,AX
+    MOV DI,0
+    MOV CX,256
+
+GOON:
+    DEC BYTE PTR[DI]
+    INC DI
+    CMP BYTE PTR[DI-1],0
+    LOOPNZ GOON
+
+    HLT
+
+CODE ENDS
+
+    END

@@ -1,0 +1,11 @@
+CODE SEGMENT
+
+    MOV AL,44H
+    CBW
+
+    HLT
+
+    
+CODE ENDS
+
+    END

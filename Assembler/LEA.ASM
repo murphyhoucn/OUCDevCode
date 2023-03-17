@@ -1,0 +1,10 @@
+CODE SEGMENT
+
+
+    MOV [3820H],1234H
+    LEA AX,[3820H]
+
+    HLT
+CODE ENDS
+
+    END

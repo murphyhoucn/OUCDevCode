@@ -1,0 +1,11 @@
+CODE SEGMENT
+    MOV AX,0000H
+    MOV CX,0100H
+
+    KKK:INC AX  
+    LOOP KKK
+    HLT
+
+CODE ENDS
+
+    END

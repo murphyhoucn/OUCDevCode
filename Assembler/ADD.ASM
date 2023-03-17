@@ -1,0 +1,15 @@
+CODE SEGMENT
+
+    MOV CX,1111H
+    ADD CX,1111H
+    ADD CX,CX
+
+    LEA SI,[2222H]
+
+    ADD CX,SI
+
+    HLT
+    
+CODE ENDS
+
+    END

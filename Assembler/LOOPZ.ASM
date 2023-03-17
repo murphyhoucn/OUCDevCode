@@ -1,0 +1,20 @@
+CODE SEGMENT
+    MOV CX,28H
+    MOV SI,0FFH
+NEXT:
+    INC SI
+    CMP BYTE PTR [SI],0
+    LOOPZ NEXT
+
+    JNZ OKK
+    CALL DISPLAY1
+    RET
+OKK:
+    CALL DISPLAY2
+    RET
+
+    HLT
+
+CODE ENDS
+
+    END

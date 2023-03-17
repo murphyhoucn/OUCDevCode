@@ -1,0 +1,11 @@
+CODE SEGMENT
+
+    MOV CX,1111H
+
+    NEG CX
+
+    HLT
+    
+CODE ENDS
+
+    END
