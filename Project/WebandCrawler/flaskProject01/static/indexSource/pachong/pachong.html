@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <title>数据收集</title>
+    <link rel="stylesheet" href="http://127.0.0.1:5000/static/indexSource/pachong/pachong_style.css">
+    <link rel="shortcut icon" href="http://127.0.0.1:5000/static/indexSource/resource/image/ICO.ico" type="image/x-icon"
+</head>
+<!--    链接的颜色-->
+<!--颜色 https://www.w3school.com.cn/cssref/css_colors.asp-->
+<!--    a:link{color:#000000;}      /* 未访问链接*/-->
+<!--    a:visited {color:#00FF00;}  /* 已访问链接 */-->
+<!--    a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */-->
+<!--    a:active {color:#0000FF;}  /* 鼠标点击时 */-->
+<style type="text/css">
+        a:link {
+        color:	#000000;
+        text-decoration:none;
+        }
+        a:visited {
+        color:	#000000;
+        text-decoration:none;
+        }
+        a:hover {
+        color:	#0000FF;
+        text-decoration:none;
+        }
+        a:active {
+        color:	#800080;
+        text-decoration:none;
+        }
+    </style>
+
+
+    <iframe id='myIframe' name='myIframe' frameborder="0" width="75%" height="90%" align="left"scrolling='auto'>
+    </iframe>
+
+<div class="sidebar">
+    <div class="tab"  id="cate0"><i class="reorder"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>单元项目</strong></div>
+<!--**************************************************************************************-->
+    <div class="design" id="cate1">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="http://127.0.0.1:5000/static/indexSource/pachong/silu.html" target="myIframe"><strong>思路</strong></a></div>
+    </div>
+<!--**************************************************************************************-->
+    <div class="design" id="cate2">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="http://127.0.0.1:5000/static/indexSource/pachong/caozuo.html" target="myIframe"><strong>操作</strong></a></div>
+    </div>
+
+<!--**************************************************************************************-->
+    <div class="design" id="cate3">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="http://127.0.0.1:5000/static/indexSource/pachong/jieguo.html" target="myIframe"><strong>结果</strong></a></div>
+    </div>
+
+<!--**************************************************************************************-->
+    <div class="design" id="cate4">
+        <div class="navto-nav"><i class="imooc-icon"></i><a href="http://127.0.0.1:5000/static/indexSource/pachong/chuangxindian.html" target="myIframe"><strong>创新点</strong></a></div>
+    </div>
+
+<!--**************************************************************************************-->
+
+</div>
+
+<div class="videocontainer">
+
+    <video class="fullscreenvideo" poster="" id="bgvid" playsinline="" autoplay="" muted="" loop="">
+
+        <source src="http://127.0.0.1:5000/static/indexSource/resource/image/blog_background.mp4" type="video/mp4">
+
+    </video>
+</div>
+
+
+<a class="btn"></a>
+
+<script type="text/javascript">
+    $('.btn').on('click',function () {
+        $('.btn').toggleClass('btnc');
+        $('.sidebar').toggleClass('side');
+
+    })
+</script>
+
+
+
+
+
+</body>
+</html>
