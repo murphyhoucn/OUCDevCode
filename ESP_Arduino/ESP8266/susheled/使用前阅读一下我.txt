@@ -1,0 +1,10 @@
+下载Arduino IDE然后把Blinker库文件解压后，重命名为Blinker并将这个文件夹复制到Arduino IDE的 libraies下
+（libraies路径一般为C:\Users\你的用户名\Documents（文档）\Arduino\libraries）
+然后用Arduino IDE 打开susheled.ino 对应的修改三个自己的参数 编译上传到ESP8266开发板上就可以了。
+
+硬件方面 舵机可以使用最垃圾的SG90塑料舵机，实测5V供电的情况下，力度开关灯够了，ESP8266采用的
+是带CH340下载电路的模块（大概15块钱那个样子吧）程序里面定义的舵机控制引脚是D0（GPIO16）可以
+默认，也可以根据自己需求改一下。
+
+单独开关灯有点浪费这个wifi模块，可以扩展一些其他功能。打造属于自己的“智能”房间。比如利用ESP8266
+制作一个空调遥控器等等。

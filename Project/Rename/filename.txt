@@ -1,0 +1,7 @@
+D:\Develop_Python\Progect\Rename\filename.txt
+D:\Develop_Python\Progect\Rename\readfilename.py
+D:\Develop_Python\Progect\Rename\rename.py
+D:\Develop_Python\Progect\Rename\rename1.py
+D:\Develop_Python\Progect\Rename\rename2.py
+D:\Develop_Python\Progect\Rename\rename3.py
+D:\Develop_Python\Progect\Rename\repeat.py

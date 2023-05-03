@@ -1,0 +1,14 @@
+https://wxrz.ouc.edu.cn:802/eportal/portal/login?callback=dr1003
+&login_method=1
+&user_account=,0,19120011013
+&user_password=1111111111
+&wlan_user_ip=10.117.182.75
+&wlan_user_ipv6=
+&wlan_user_mac=000000000000
+&wlan_ac_ip=
+&wlan_ac_name=
+&jsVersion=4.1
+&terminal_type=1
+&lang=zh-cn
+&v=6238
+&lang=zh
