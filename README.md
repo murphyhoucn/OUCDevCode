@@ -3,5 +3,5 @@ Programming in OUC
 
 
 
-./HLP/HLP: UTF-8
-others: GB 2312
+- ./HLP/HLP: UTF-8
+- others: GB 2312
